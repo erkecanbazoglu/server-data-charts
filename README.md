@@ -14,7 +14,7 @@ This project provides a real-time dashboard to monitor server status and statist
 
 ![average](./client//public/total.png)
 
-## Table of Contents
+## Table of Contents
 
 - [Setup and Installation](#setup-and-installation)
 - [Backend (Server)](#backend-server)
