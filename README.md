@@ -4,6 +4,16 @@
 
 This project provides a real-time dashboard to monitor server status and statistics across various regions using a React frontend and a Node.js backend. Data is fetched periodically from multiple regions and displayed on the client using charts.
 
+<!-- Add an image -->
+
+### Average
+
+![average](./client//public/average.png)
+
+### Total
+
+![average](./client//public/total.png)
+
 ## Table of Contents
 
 1. Setup and Installation
