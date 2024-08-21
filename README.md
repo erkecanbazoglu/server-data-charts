@@ -16,23 +16,19 @@ This project provides a real-time dashboard to monitor server status and statist
 
 ## Table of Contents
 
-1. Setup and Installation
-2. Backend (Server)
-
-- Overview
-- API Endpoints
-- Scheduled Jobs
-- WebSocket Integration
-
-3. Frontend (Client)
-
-- Overview
-- Components
-- WebSocket Integration
-
-4. Running the Project
-5. Acknowledgments
-6. Author
+- [Setup and Installation](#setup-and-installation)
+- [Backend (Server)](#backend-server)
+  - [Overview](#overview)
+  - [API Endpoints](#api-endpoints)
+  - [Scheduled Jobs](#scheduled-jobs)
+  - [WebSocket Integration](#websocket-integration)
+- [Frontend (Client)](#frontend-server)
+  - [Overview](#overview)
+  - [Components](#components)
+  - [WebSocket Integration](#websocket-integration)
+- [Running the Project](#running-the-project)
+- [Acknowledgments](#acknowledgments)
+- [Author](#author)
 
 ## Setup and Installation
 
@@ -172,15 +168,17 @@ The client is built using React and Vite. It connects to the backend via both RE
 
    ```bash
    cd server
-   npm run dev
+   npm run build
+   npm run start
    ```
 
-The server will start on http://localhost:3000.
+This will build the project and start the server on http://localhost:3000.
 
 2. **Check API and WebSocket:**
 
-- API is accessible at http://localhost:3000/api/data.
-- WebSocket connection is established at http://localhost:3000.
+- Initial API check http://localhost:3000.
+- Data is accessible at http://localhost:3000/api/data (fetched every minute).
+- WebSocket connection is established at http://localhost:3000 (from the client app).
 
 ### Running the Client
 
@@ -195,7 +193,7 @@ The client will start on http://localhost:5173.
 
 2. **Access the Dashboard:**
 
-- Open http://localhost:5173 in your browser to view the dashboard.
+- Open http://localhost:5173 in your browser to view the dashboard. Data will be fetched and added to the dashboard.
 
 ## Acknowledgments
 
